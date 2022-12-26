@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.5060ddb8.css",
-    "main.js": "/static/js/main.469e0dbf.js",
+    "main.css": "/static/css/main.c44b1efc.css",
+    "main.js": "/static/js/main.f6c5df31.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/ndtv.png": "/static/media/ndtv.db75559fcb61b92cc173.png",
+    "static/media/weather-app.png": "/static/media/weather-app.98a9c515215d60dddc88.png",
     "static/media/Sahil_Khan.png": "/static/media/Sahil_Khan.19ccd61dd481b322a1e7.png",
+    "static/media/mail.svg": "/static/media/mail.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/programmer.svg": "/static/media/programmer.c3a9006a0b5a056a510e1fc7cf0e15f7.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.b508609b24c1a2bc58576411df58bb4b.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.d39adae080cb59077b8c3a842bfd959c.svg",
@@ -18,12 +21,12 @@
     "static/media/chakra-ui.svg": "/static/media/chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.5060ddb8.css.map": "/static/css/main.5060ddb8.css.map",
-    "main.469e0dbf.js.map": "/static/js/main.469e0dbf.js.map",
+    "main.c44b1efc.css.map": "/static/css/main.c44b1efc.css.map",
+    "main.f6c5df31.js.map": "/static/js/main.f6c5df31.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5060ddb8.css",
-    "static/js/main.469e0dbf.js"
+    "static/css/main.c44b1efc.css",
+    "static/js/main.f6c5df31.js"
   ]
 }
