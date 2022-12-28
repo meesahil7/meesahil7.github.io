@@ -1,0 +1,114 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn-wrapper {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 130px;
+}
+
+.main {
+  height: 80px;
+  background-color: #545fc4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  color: rgb(53, 47, 47);
+  font-stretch: ultra-expanded;
+  margin-left: 100px;
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.btn-wrapper a {
+  padding: 0.4em 0.8em;
+  border: none;
+  outline: none;
+  color: rgb(53, 47, 47);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.btn-wrapper a::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #545fc4;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* glow */
+.btn-wrapper a::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* hover */
+.btn-wrapper a:hover::before {
+  opacity: 1;
+}
+
+.btn-wrapper a:active:after {
+  background: transparent;
+}
+
+.btn-wrapper a:active {
+  color: #000;
+  font-weight: bold;
+}

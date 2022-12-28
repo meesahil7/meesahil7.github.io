@@ -1,0 +1,43 @@
+.aboutDiv {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 50% 50%);
+  gap: 20px;
+}
+
+.description {
+  margin-left: 150px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.logo {
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  margin: 70px 0px 0px 60px;
+}
+
+.heading {
+  color: #545fc4;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+/* .title {
+  color: #545fc4;
+  text-align: left;
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.para {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 22px;
+  line-height: 50px;
+  margin-top: 50px;
+  text-align: left;
+  font-weight: lighter;
+}

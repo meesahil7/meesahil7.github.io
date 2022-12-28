@@ -1,0 +1,40 @@
+.skillDiv {
+  height: 600px;
+  text-align: center;
+}
+
+.heading {
+  color: #545fc4;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+}
+
+.imageDiv {
+  display: grid;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 100px; */
+  /* border: 1px solid red; */
+}
+
+.imageDiv div {
+  border: 1px solid rgb(110, 109, 109);
+  height: 150px;
+  margin-top: 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 4px 8px 22px;
+}
+
+.imageDiv img {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+
+.imageDiv p {
+  color: white;
+  font-size: 18px;
+}

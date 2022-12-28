@@ -1,0 +1,76 @@
+.container {
+  height: 600px;
+}
+
+.heading {
+  color: #545fc4;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-div {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-div {
+  height: 400px;
+}
+
+.contact-div > div {
+  margin-left: 100px;
+}
+
+.mail-img {
+  height: 400px;
+}
+
+.mail-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: rgb(235, 231, 231);
+  font-size: 48px;
+  line-height: 20px;
+  font-weight: lighter;
+}
+.contact-div p {
+  color: rgb(155, 157, 159);
+}
+
+.mail-icon {
+  width: 35px;
+  height: 35px;
+  color: red;
+}
+
+.mail-icon ~ a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.links div {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  color: #545fc4;
+}
+
+.links a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 16px;
+}
