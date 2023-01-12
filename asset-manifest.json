@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8cc9860.css",
-    "main.js": "/static/js/main.ef7de561.js",
+    "main.css": "/static/css/main.b95dc72b.css",
+    "main.js": "/static/js/main.d4c657b4.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/ndtv.png": "/static/media/ndtv.db75559fcb61b92cc173.png",
+    "static/media/new2.png": "/static/media/new2.7c338bfc06ef5ddb2d6d.png",
     "static/media/weather-app.png": "/static/media/weather-app.98a9c515215d60dddc88.png",
-    "static/media/Sahil_Khan.png": "/static/media/Sahil_Khan.19ccd61dd481b322a1e7.png",
     "static/media/mail.svg": "/static/media/mail.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/programmer.svg": "/static/media/programmer.c3a9006a0b5a056a510e1fc7cf0e15f7.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.b508609b24c1a2bc58576411df58bb4b.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.d39adae080cb59077b8c3a842bfd959c.svg",
     "static/media/redux.svg": "/static/media/redux.0a4a6ca2be44339bedb69de15f66d243.svg",
     "static/media/react.svg": "/static/media/react.a060cbe85e50deda1d61452cee9de5b2.svg",
-    "static/media/git.svg": "/static/media/git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/github.svg": "/static/media/github.56951958776829fd87e9049fa1927c16.svg",
     "index.html": "/index.html",
     "static/media/expressjs.svg": "/static/media/expressjs.28c1c5186045f0e2975a04513a24e2a2.svg",
     "static/media/typescript.svg": "/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
@@ -21,12 +21,12 @@
     "static/media/chakra-ui.svg": "/static/media/chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.f8cc9860.css.map": "/static/css/main.f8cc9860.css.map",
-    "main.ef7de561.js.map": "/static/js/main.ef7de561.js.map",
+    "main.b95dc72b.css.map": "/static/css/main.b95dc72b.css.map",
+    "main.d4c657b4.js.map": "/static/js/main.d4c657b4.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8cc9860.css",
-    "static/js/main.ef7de561.js"
+    "static/css/main.b95dc72b.css",
+    "static/js/main.d4c657b4.js"
   ]
 }
