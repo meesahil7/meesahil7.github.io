@@ -11,26 +11,26 @@
   justify-content: center;
 }
 
-.main-div {
+.main {
   width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.contact-div {
+.contactDiv {
   height: 400px;
 }
 
-.contact-div > div {
+.contactDiv > div {
   margin-left: 100px;
 }
 
-.mail-img {
+.mailImg {
   height: 400px;
 }
 
-.mail-img img {
+.mailImg img {
   width: 100%;
   height: 100%;
 }
@@ -41,7 +41,7 @@
   line-height: 20px;
   font-weight: lighter;
 }
-.contact-div p {
+.contactDiv p {
   color: rgb(155, 157, 159);
 }
 
@@ -73,4 +73,37 @@
   text-decoration: none;
   color: aliceblue;
   font-size: 16px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 235%;
+  }
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1100px);
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .contactDiv p {
+    font-size: 3rem;
+    line-height: 80px;
+  }
+  .links a {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .icons {
+    height: 100px;
+    width: 100px;
+  }
+  .mailImg {
+    height: 600px;
+    margin-bottom: 200px;
+  }
 }

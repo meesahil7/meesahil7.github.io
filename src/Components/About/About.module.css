@@ -34,10 +34,37 @@
 
 .para {
   font-family: "Roboto Slab", serif;
-  color: white;
+  color: rgb(232, 225, 225);
   font-size: 22px;
   line-height: 50px;
   margin-top: 50px;
   text-align: left;
-  font-weight: lighter;
+  /* font-weight: lighter; */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 235%;
+  }
+  .description {
+    text-align: center;
+    margin-left: 0px;
+    padding: 0px 100px;
+  }
+  .heading {
+    font-size: 5rem;
+  }
+  .para {
+    font-size: 3rem;
+    line-height: 90px;
+    text-align: center;
+  }
+  .logo {
+    margin: auto;
+    height: 800px;
+    width: 800px;
+  }
 }

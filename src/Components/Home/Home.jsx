@@ -1,5 +1,5 @@
-import styles from "./Home.module.css";
-import logo from "../../Data/Sahil_Khan.png";
+import styles from "./home.module.css";
+import logo from "../../Data/new2.png";
 
 const About = () => {
   const redirect = () => {
@@ -11,9 +11,6 @@ const About = () => {
   return (
     <div id="home" className={styles.homeDiv}>
       <div className={styles.container}>
-        <div className={styles.leftContainer}>
-          <img className={styles.start} src={logo} alt="" />
-        </div>
         <div className={styles.rightContainer}>
           <h3 style={{ color: "violet" }}>Hi, all!</h3>
           <h1>I'm Sahil Khan!</h1>
@@ -22,7 +19,11 @@ const About = () => {
             My Resume
           </button>
         </div>
+        <div className={styles.leftContainer}>
+          <img className={styles.start} src={logo} alt="" />
+        </div>
       </div>
+      <hr />
     </div>
   );
 };

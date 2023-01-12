@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Skill.module.css";
+import styles from "./skill.module.css";
 
 const SKill = () => {
   return (
@@ -47,8 +47,12 @@ const SKill = () => {
           <p>Node JS</p>
         </div>
         <div>
-          <img src={require("../../Data/git.svg").default} alt="git-icon" />
-          <p>Git</p>
+          <img
+            src={require("../../Data/github.svg").default}
+            alt="git-icon"
+            style={{ backgroundColor: "white" }}
+          />
+          <p>GitHub</p>
         </div>
         <div>
           <img src={require("../../Data/npm.svg").default} alt="npm-icon" />

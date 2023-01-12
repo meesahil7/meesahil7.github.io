@@ -38,3 +38,30 @@
   color: white;
   font-size: 18px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .skillDiv {
+    width: 235%;
+    height: auto;
+  }
+  .heading {
+    font-size: 5rem;
+  }
+  .imageDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+    padding: 0px 100px;
+  }
+  .imageDiv div {
+    height: 300px;
+  }
+  .imageDiv img {
+    width: 160px;
+    height: 160px;
+  }
+  .imageDiv p {
+    font-size: 2rem;
+  }
+}
