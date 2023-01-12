@@ -79,12 +79,12 @@ hr {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .homeDiv {
-    /* width: 255%; */
+    width: 1051px;
     margin-bottom: 600px;
   }
   .container {
     display: grid;
-    grid-template-columns: repeat(1, 1150px);
+    grid-template-columns: repeat(1, 1051px);
   }
   .rightContainer {
     text-align: center;
@@ -108,6 +108,6 @@ hr {
   }
   hr {
     margin-top: 150px;
-    width: 200%;
+    width: 850px;
   }
 }

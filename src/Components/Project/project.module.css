@@ -108,7 +108,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .projectDiv {
-    width: 235%;
+    width: 1051px;
     height: auto;
     margin-top: 150px;
   }
@@ -130,11 +130,11 @@
     width: 900px;
     display: flex;
     justify-content: center;
-    border-radius: 20%;
   }
   .card2 {
     height: 1500px;
     width: 900px;
+    border-radius: 20px;
   }
   .para {
     font-size: 3rem;
