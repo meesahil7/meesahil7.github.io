@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.82325db9.css",
+    "main.css": "/static/css/main.69912b2e.css",
     "main.js": "/static/js/main.1bb1d0b0.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/ndtv.png": "/static/media/ndtv.db75559fcb61b92cc173.png",
@@ -21,12 +21,12 @@
     "static/media/chakra-ui.svg": "/static/media/chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.82325db9.css.map": "/static/css/main.82325db9.css.map",
+    "main.69912b2e.css.map": "/static/css/main.69912b2e.css.map",
     "main.1bb1d0b0.js.map": "/static/js/main.1bb1d0b0.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82325db9.css",
+    "static/css/main.69912b2e.css",
     "static/js/main.1bb1d0b0.js"
   ]
 }
