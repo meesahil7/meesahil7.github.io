@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.719f4ecd.css",
-    "main.js": "/static/js/main.e9ecb8ff.js",
+    "main.js": "/static/js/main.8b17d6af.js",
     "static/media/mytv.png": "/static/media/mytv.e036ebc55759ad48650a.png",
     "static/media/ndtv.png": "/static/media/ndtv.db75559fcb61b92cc173.png",
     "static/media/urban-service.png": "/static/media/urban-service.c86e8261aecc96b6cb0b.png",
@@ -26,10 +26,10 @@
     "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
     "main.719f4ecd.css.map": "/static/css/main.719f4ecd.css.map",
-    "main.e9ecb8ff.js.map": "/static/js/main.e9ecb8ff.js.map"
+    "main.8b17d6af.js.map": "/static/js/main.8b17d6af.js.map"
   },
   "entrypoints": [
     "static/css/main.719f4ecd.css",
-    "static/js/main.e9ecb8ff.js"
+    "static/js/main.8b17d6af.js"
   ]
 }
