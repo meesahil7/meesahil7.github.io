@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Habibi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
+@font-face {
+  font-family: "BestermindRegular";
+  src: url(./Assets/BestermindRegular.e58a1922.ttf);
+  src: url(./Assets/BestermindRegular.e58a1922.ttf) format("embedded-opentype"),
+    url(./Assets/BestermindRegular.e58a1922.ttf) format("truetype");
+}
+
+body {
+  background-color: #373747;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292942;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+#scrollBtn {
+  position: fixed;
+  top: 90%;
+  color: #6c63ff;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  left: 95%;
+  border: 4px solid #6c63ff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+}
+
+#scrollBtn:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+  background-color: white;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  #scrollBtn {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #scrollBtn {
+    left: 90%;
+  }
+}

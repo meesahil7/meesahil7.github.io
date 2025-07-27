@@ -1,0 +1,131 @@
+/* img {
+  width: 100%;
+} */
+#calendar2 {
+  /* background-color: hsl(216, 28%, 7%); */
+  background-color: #292942;
+  /* border-radius: 15px; */
+  font-size: large;
+  color: white;
+  padding: 15px;
+}
+
+.gitcont {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.git {
+  width: 56%;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.bottom {
+  /* border: 1px solid red; */
+  /* width: 1040px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#stat {
+  width: 400px;
+  /* padding-right: -20px; */
+  /* margin-left: 10px; */
+}
+
+#streak {
+  width: 430px;
+  margin-left: 10px;
+  /* padding-bottom: 22px; */
+}
+
+.gitcont h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #545fc4;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .git {
+    width: 70%;
+    font-size: 10px;
+  }
+  #calendar1 {
+    font-size: 10px;
+    height: 100px;
+  }
+  #calendar2 {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    font-size: 10px;
+  }
+  .gitcont {
+    /* height: 800px; */
+    margin-top: 100px;
+  }
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #stat {
+    width: 500px;
+    margin-left: 0px;
+  }
+  #streak {
+    width: 500px;
+    margin-left: 0px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .git {
+    width: 75%;
+    font-size: 10px;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+  }
+  .gitcont h1 {
+    font-size: 2rem;
+    margin: 40px 0px 30px 0px;
+  }
+  #calendar2 {
+    width: 100%;
+    /* padding: 10px; */
+    font-size: 16px;
+  }
+  .gitcont {
+    height: 420px;
+    margin-top: 100px;
+  }
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    /* border: 1px solid red; */
+    width: 120%;
+  }
+  #stat {
+    width: 325px;
+    margin-left: 12px;
+  }
+  #streak {
+    width: 325px;
+    margin-left: 12px;
+  }
+}
