@@ -14,7 +14,7 @@ export function Experience() {
               <img src={prodios} />
             </span>
           </div>
-          <div>July 2025 - Present</div>
+          <div>July 2024 - Present</div>
           <p>
             I am working as a Full Stack Web Developer, responsible for building
             and maintaining web applications using React, NestJS, and

@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4133d48d.css",
+    "main.js": "/static/js/main.890406f6.js",
+    "static/media/mytv.png": "/static/media/mytv.e036ebc55759ad48650a.png",
+    "static/media/ucc-landing.png": "/static/media/ucc-landing.5584ca109e8dc7384e78.png",
+    "static/media/urban-service.png": "/static/media/urban-service.c86e8261aecc96b6cb0b.png",
+    "static/media/apuni-sarkar.png": "/static/media/apuni-sarkar.bcb3cfd6e524ccdf5dd3.png",
+    "static/media/BestermindRegular.e58a1922.ttf": "/static/media/BestermindRegular.e58a1922.e58a192233afb30a6a59.ttf",
+    "static/media/mail.svg": "/static/media/mail.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/programmer.svg": "/static/media/programmer.c3a9006a0b5a056a510e1fc7cf0e15f7.svg",
+    "static/media/sahil_khan.jpeg": "/static/media/sahil_khan.8f7d40baa2f58279a78d.jpeg",
+    "static/media/mongodb.svg": "/static/media/mongodb.b508609b24c1a2bc58576411df58bb4b.svg",
+    "static/media/nestjs-icon.svg": "/static/media/nestjs-icon.cd4028c74fbd7e8f634a8c9c2571b129.svg",
+    "static/media/Ant-Design.svg": "/static/media/Ant-Design.74f49b818e37a0099438b87e085db1b6.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.d39adae080cb59077b8c3a842bfd959c.svg",
+    "static/media/zod-seeklogo.svg": "/static/media/zod-seeklogo.6800627c7fcbaf33a50c41e2eae8569a.svg",
+    "static/media/redux.svg": "/static/media/redux.0a4a6ca2be44339bedb69de15f66d243.svg",
+    "static/media/icons8-next.js.svg": "/static/media/icons8-next.js.638b6634b382c33dc51d1ca4eb5094d4.svg",
+    "static/media/react.svg": "/static/media/react.a060cbe85e50deda1d61452cee9de5b2.svg",
+    "index.html": "/index.html",
+    "static/media/expressjs.svg": "/static/media/expressjs.28c1c5186045f0e2975a04513a24e2a2.svg",
+    "static/media/shadcn-ui-seeklogo.svg": "/static/media/shadcn-ui-seeklogo.32a1807d75c6237156290fbe32a3bd11.svg",
+    "static/media/typescript.svg": "/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
+    "static/media/javascript.svg": "/static/media/javascript.94eea64c47f8d2d01bb375bfeb4378a3.svg",
+    "static/media/css.svg": "/static/media/css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/chakra-ui.svg": "/static/media/chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
+    "static/media/html.svg": "/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "static/media/npm.svg": "/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
+    "main.4133d48d.css.map": "/static/css/main.4133d48d.css.map",
+    "main.890406f6.js.map": "/static/js/main.890406f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4133d48d.css",
+    "static/js/main.890406f6.js"
+  ]
+}
